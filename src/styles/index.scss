@@ -1,0 +1,120 @@
+.landing-bg {
+  width: 100%;
+  height: 100%;
+  filter: contrast(.9) brightness(.75) blur(2px);
+  object-fit: cover;
+}
+
+.landing-left {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+
+  .info {
+    position: fixed;
+    max-width: 12rem;
+    z-index: 0;
+
+    img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 10rem;
+      border: 2px solid var(--secondary);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin-top: .5rem;
+    }
+
+    .links {
+      font-size: 1.5rem;
+
+      a {
+        margin-left: 8px;
+        margin-right: 8px;
+        color: var(--secondary);
+      }
+    }
+  }
+
+  .keywords {
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+
+    .top {
+      top: .5rem;
+      
+      &.left {
+        left: 1rem;
+      }
+      
+      &.right {
+        right: 1rem;
+        margin-top: 4px;
+        transform: rotate(90deg) translateY(-600%);
+        transform-origin: top left;
+      }
+    }
+
+    .bottom {
+      bottom: .5rem;
+
+      &.left {
+        left: 1rem;
+        margin-bottom: 4px;
+        transform: rotate(-90deg) translateY(80%);
+        transform-origin: bottom left;
+      }
+
+      &.right {
+        right: 1rem;
+      }
+    }
+  }
+}
+
+.spotify-right {
+  height: 100vh;
+
+  .spotify-follow {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.spotify-highlights {
+  height: 25rem;
+
+  img {
+    object-fit: cover;
+    filter: brightness(.5);
+  }
+}
+
+.section-2-RENAME-THIS {
+  flex-direction: row-reverse;
+  
+  img {
+    object-fit: cover;
+    left: 0;
+    height: 100%;
+    filter: brightness(.25);
+  }
+
+  .right {
+    height: 100vh; /* TODO: CHANGE THIS */
+  }
+}
+
+.wala-pa {
+  width: 100%;
+  bottom: 2rem;
+  text-align: center;
+  text-shadow:
+    0 0 10px black, 0 0 10px black,
+    0 0 20px black, 0 0 25px black;
+}

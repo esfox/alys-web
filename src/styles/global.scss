@@ -1,19 +1,21 @@
 :root {
-
   --primary: #f44336;
   --secondary: #c696ff;
 
-  --background: #270b09;
+  --background: #300a07;
   --foreground: #feeceb;
 }
 
 @import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
-@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;700;900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Livvic:wght@400;700;900&display=swap);
 
 html, body, ul, h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .font-primary {
@@ -28,6 +30,18 @@ body {
   background: var(--background);
   color: var(--foreground);
   @extend .font-primary;
+}
+
+.bg-colored {
+  background: var(--background);
+}
+
+.color-primary {
+  color: var(--primary);
+}
+
+.color-secondary {
+  color: var(--secondary);
 }
 
 // button {

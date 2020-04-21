@@ -1,5 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import ogImage from './assets/images/og_image.jpg';
 
 export default function HTML(props) {
   return (
@@ -8,7 +10,7 @@ export default function HTML(props) {
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        {/* <link rel="icon" href={favicon}/> */}
+        <link rel="icon" href={ogImage}/>
 
         {/* Primary Meta Tags */}
         <title>alys</title>
@@ -17,18 +19,18 @@ export default function HTML(props) {
         
 
         {/* Open Graph / Facebook */}
-        {/* <meta property="og:type" content="website"/> */}
         {/* <meta property="og:url" content="add new url"/> */}
+        <meta property="og:type" content="website"/>
         <meta property="og:title" content="alys"/>
         <meta property="og:description" content="a filipino singer-songwriter born and raised in a sandbox"/>
-        {/* <meta property="og:image" content={avatar}/> */}
+        <meta property="og:image" content={ogImage}/>
 
         {/* Twitter */}
-        <meta property="twitter:card" content="summary_large_image"/>
         {/* <meta property="twitter:url" content="add new url"/> */}
+        <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:title" content="alys"/>
         <meta property="twitter:description" content="a filipino singer-songwriter born and raised in a sandbox"/>
-        {/* <meta property="twitter:image" content={avatar}/> */}
+        <meta property="twitter:image" content={ogImage}/>
 
         <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"/>
         <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"/>
