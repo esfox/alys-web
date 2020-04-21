@@ -1,0 +1,19 @@
+{
+  "name": "alys-web",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "set PORT=18 && gatsby develop",
+    "build": "gatsby build"
+  },
+  "keywords": [],
+  "author": "osairis100@gmail.com",
+  "dependencies": {
+    "gatsby": "^2.20.8",
+    "gatsby-plugin-pnpm": "^1.2.3",
+    "gatsby-plugin-sass": "^2.2.3",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

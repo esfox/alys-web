@@ -1,0 +1,85 @@
+:root {
+
+  --primary: #f44336;
+  --secondary: #c696ff;
+
+  --background: #270b09;
+  --foreground: #feeceb;
+}
+
+@import url(https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css);
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;700;900&display=swap');
+
+html, body, ul, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.font-primary {
+  font-family: 'Livvic', sans-serif;
+}
+
+.font-secondary {
+  font-family: 'Gotham', sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  @extend .font-primary;
+}
+
+// button {
+//   display: flex;
+//   justify-content: center;
+//   align-items: baseline;
+//   padding: .5rem;
+//   border: none;
+//   border-radius: 4px;
+//   background: var(--primary);
+//   color: var(--background);
+//   line-height: 1;
+//   @extend .font-primary;
+//   @extend .text-button;
+
+//   &:hover {
+//     cursor: pointer;
+//   }
+
+//   &:focus {
+//     outline: none;
+//     background: var(--primary-dark);
+//   }
+
+//   &:active {
+//     filter: brightness(.95);
+//   }
+// }
+
+// input, select, textarea {
+//   @extend .font-primary;
+//   font-size: 1rem;
+//   font-weight: 500;
+//   border: 2px solid var(--background-dark);
+//   background: var(--background-light);
+//   color: var(--foreground);
+//   padding: .5rem .75rem;
+//   transition: border-color .15s;
+//   resize: none;
+
+//   &::placeholder {
+//     opacity: .6;
+//   }
+
+//   &:focus {
+//     outline: none;
+//     border-color: var(--primary-lighter);
+//   }
+  
+//   &::-webkit-outer-spin-button,
+//   &::-webkit-inner-spin-button {
+//     -webkit-appearance: none;
+//     margin: 0;
+//   }
+// }
