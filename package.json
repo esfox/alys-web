@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "osairis100@gmail.com",
   "dependencies": {
-    "gatsby": "^2.20.8",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-pnpm": "^1.2.3",
     "gatsby-plugin-sass": "^2.2.3",
     "node-sass": "^4.13.1",
