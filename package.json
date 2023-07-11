@@ -12,7 +12,7 @@
     "gatsby": "^2.20.8",
     "gatsby-plugin-pnpm": "^1.2.3",
     "gatsby-plugin-sass": "^2.2.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
